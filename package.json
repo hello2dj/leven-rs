@@ -1,0 +1,49 @@
+{
+  "name": "leven-rs",
+  "version": "0.1.0",
+  "description": "Measure the difference between two strings using neon bind rust implementation of the Levenshtein distance algorithm",
+  "main": "index.js",
+  "author": "hello2dj <dj_amazing@sina.com>",
+  "keywords": [
+    "leven",
+    "levenshtein",
+    "distance",
+    "algorithm",
+    "algo",
+    "string",
+    "difference",
+    "diff",
+    "fast",
+    "fuzzy",
+    "similar",
+    "similarity",
+    "compare",
+    "comparison",
+    "edit",
+    "text",
+    "match",
+    "matching"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.2.0"
+  },
+  "scripts": {
+    "install": "neon build",
+    "bench": "matcha bench.js",
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "fast-levenshtein": "^2.0.6",
+    "ld": "^0.1.0",
+    "levdist": "^2.2.9",
+    "leven": "^3.0.0",
+    "levenshtein": "^1.0.5",
+    "levenshtein-component": "0.0.1",
+    "levenshtein-edit-distance": "^2.0.3",
+    "matcha": "^0.7.0",
+    "natural": "^0.6.3",
+    "talisman": "^0.21.0"
+  }
+}

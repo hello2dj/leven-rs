@@ -1,0 +1,19 @@
+[package]
+name = "fy"
+version = "0.1.0"
+authors = ["hello2dj <dj_amazing@sina.com>"]
+license = "MIT"
+build = "build.rs"
+exclude = ["artifacts.json", "index.node"]
+
+[lib]
+name = "fy"
+crate-type = ["dylib"]
+
+[build-dependencies]
+neon-build = "0.2.0"
+
+[dependencies]
+neon = "0.2.0"
+reqwest = "0.9.12"
+quickcheck = "0.8.2"
